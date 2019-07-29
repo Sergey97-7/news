@@ -1,11 +1,14 @@
 .about {
-  background-color: pink;
-    height: calc(100vh - 50px);
+  background-color: limegreen;
+  height: calc(100vh - 50px);
   .info {
-    padding-top: 50px;
+    padding-top: 30px;
     margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    p, a {
+      font-size: 20px;
+    }
   }
 }

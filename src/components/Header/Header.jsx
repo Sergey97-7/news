@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import styles from "./Header.module.scss";
 
@@ -18,9 +19,9 @@ class Header extends Component {
         </div>
         <nav className={styles.nav}>
           <ul>
-            <li>Home</li>
-            <li>Contacts</li>
-            <li>About</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/about">About2</Link></li>
           </ul>
         </nav>
       </div>

@@ -7,13 +7,17 @@ class About extends Component {
     return (
       <div className={styles.about}>
         <div className={styles.info}>
-          <div className={styles.test}>
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
-            <p>5</p>
-          </div>
+          <h2>About</h2>
+          <p>My name is Sergey. I'm 22 years old and i'm a frontend developer. And this is my news website!</p>
+          <h2>Contacts</h2>
+          <p>Telephone: +7 (777) 777-77-77</p>
+          <p>E-mail: Sergey97-7</p>
+          <h2>Links:</h2>
+          <a href="https://github.com/Sergey97-7">Github</a>
+          <a href="https://github.com/Sergey97-7">Facebook</a>
+          <a href="https://github.com/Sergey97-7">Twitter</a>
+          <a href="https://github.com/Sergey97-7">Vkontakte</a>
+          <a href="https://github.com/Sergey97-7">Instagram</a>
         </div>
       </div>
     );

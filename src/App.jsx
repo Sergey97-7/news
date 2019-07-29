@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import store from "./store";
 import Header from "./components/Header";
+import Main from "./components/Main";
 import About from "./components/About";
 function App() {
   return (
@@ -11,14 +12,8 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" component={About} />
-          <Route
-            exact
-            path="/2"
-            render={() => (
-              <div className="App">Hello World from another route!</div>
-            )}
-          />
+          <Route exact path="/" component={Main} />
+          <Route exact path="/about" component={About} />
         </Switch>
       </Router>
     </Provider>
