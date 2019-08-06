@@ -19,9 +19,9 @@ class Header extends Component {
         </div>
         <nav className={styles.nav}>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/about">About2</Link></li>
+            <li><Link className={styles.nav_link} to="/">Home</Link></li>
+            <li><Link className={styles.nav_link} to="/about">About</Link></li>
+            <li><Link className={styles.nav_link} to="/about">About2</Link></li>
           </ul>
         </nav>
       </div>
