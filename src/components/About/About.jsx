@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import styles from "./About.module.scss";
+import "./About.scss";
 
 class About extends Component {
   render() {
     return (
-      <div className={styles.about}>
-        <div className={styles.info}>
+      <div className="about">
+        <div className="info">
           <h2>About</h2>
           <p>My name is Sergey. I'm 22 years old and i'm a frontend developer. And this is my news website!</p>
           <h2>Contacts</h2>

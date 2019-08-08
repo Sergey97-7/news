@@ -1,27 +1,27 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import styles from "./Header.module.scss";
+import "./Header.scss";
 
 class Header extends Component {
   render() {
     return (
-      <div className={styles.header}>
-        <div className={styles.title}>
-          <div className={styles.logo}>
+      <div className="header">
+        <div className="title">
+          <div className="logo">
             <img
               src="https://pp.userapi.com/c841237/v841237210/309ab/ZOUl4MN0VvU.jpg"
               alt="site_logo"
               title="site_logo"
             />
           </div>
-          <div className={styles.text}>Welcome to the news website!</div>
+          <div className="text">Welcome to the news website!</div>
         </div>
-        <nav className={styles.nav}>
+        <nav className="nav">
           <ul>
-            <li><Link className={styles.nav_link} to="/">Home</Link></li>
-            <li><Link className={styles.nav_link} to="/about">About</Link></li>
-            <li><Link className={styles.nav_link} to="/about">About2</Link></li>
+            <li><Link className="nav_link" to="/">Home</Link></li>
+            <li><Link className="nav_link" to="/about">About</Link></li>
+            <li><Link className="nav_link" to="/about">About2</Link></li>
           </ul>
         </nav>
       </div>

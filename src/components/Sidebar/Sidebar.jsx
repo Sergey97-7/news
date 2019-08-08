@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import styles from "./Sidebar.module.scss";
+import "./Sidebar.scss";
 
 class Sidebar extends Component {
   render() {
     return (
-      <div className={styles.sidebar}>
+      <div className="sidebar">
         <h3>Порталы:</h3>
         <ul>
           <li>Лента</li>

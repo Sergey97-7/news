@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import styles from "./OptionsPanel.module.scss";
+import "./OptionsPanel.scss";
 class OptionsPanel extends Component {
   render() {
     return (
-      <div className={styles.optionsPanel}>
+      <div className="options-panel">
           <h3>Текущий выбор: "newsname"(надо ли это?)</h3>
           <ul>
               <li>Топ 15 новостей</li>

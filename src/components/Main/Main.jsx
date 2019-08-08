@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import styles from "./Main.module.scss";
+import "./Main.scss";
 import Sidebar from "../Sidebar";
 import OptionsPanel from "../OptionsPanel";
 import Content from "../Content";
@@ -8,7 +8,7 @@ import Content from "../Content";
 class Main extends Component {
   render() {
     return (
-      <div className={styles.main}>
+      <div className="main">
         <Sidebar />
         <OptionsPanel />
         <Content />
