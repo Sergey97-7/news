@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import styles from "./NewsContainer.module.scss";
+import "./NewsContainer.scss";
 
 class NewsContainer extends Component {
   render() {

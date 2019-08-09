@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import styles from "./Content.module.scss";
-import NewsContainer from "../Content";
+import "./Content.scss";
+import NewsContainer from "../NewsContainer";
 
 class Content extends Component {
   render() {
     return (
-      <div className={styles.content}>
+      <div className="content">
           <NewsContainer/>
       </div>
     );
