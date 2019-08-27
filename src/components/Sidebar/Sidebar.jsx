@@ -6,13 +6,13 @@ class Sidebar extends Component {
   render() {
     return (
       <div className="sidebar">
-        <h3>Порталы:</h3>
+        <h2>Порталы:</h2>
         <ul>
           <li>Лента</li>
           <li>Рамблер новости</li>
-          <li>Наука</li>{" "}
+          <li>Яндекс новости</li>{" "}
         </ul>
-        <h3>Категории</h3>
+        <h2>Категории:</h2>
         <ul>
           <li>Спорт</li>
           <li>Политика</li>

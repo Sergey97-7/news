@@ -2,4 +2,8 @@
   background-color: olivedrab;
   position: relative;
   height: calc(100vh - 50px);
+  display: flex;
+  .main-content {
+    width: 100%;
+  }
 }
